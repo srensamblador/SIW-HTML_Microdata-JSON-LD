@@ -60,7 +60,12 @@
 					"@id": "http://danigayo.info/"
 				},
 				"schema:headline": "Social Media, Democracy, and Democratization",
-				"schema:datePublished": "2015-04"
+				"schema:datePublished": "2015-04",
+				"schema:publisher": {
+					"@id": "https://www.ieee.org/",
+					"@type": "schema:Organization",
+					"schema:name": "IEEE"
+				}
 			}
 		},
 		{
@@ -74,7 +79,12 @@
 					"schema:name": "Schoen Harald, Gayo-Avello Daniel, Taxis Metaxas Panagiotis, Mustafaraj Eni, Strohmaier Markus, Gloor Peter"
 				},
 				"schema:headline": "The power of prediction with social media",
-				"schema:datePublished": "2013-10-14"
+				"schema:datePublished": "2013-10-14",
+				"schema:publisher":{
+					"@id": "https://www.emerald.com/insight/",
+					"@type": "schema:Organization",
+					"schema:name": "emerald Publishing"
+				}
 			}
 		},
 		{
@@ -88,13 +98,32 @@
 					"@id": "http://danigayo.info/"
 				},
 				"schema:headline": "No, You Cannot Predict Elections with Twitter",
-				"schema:datePublished": "2012-09-02"
+				"schema:datePublished": "2012-09-02",
+					"schema:publisher": {
+					"@id": "https://www.ieee.org/",
+					"@type": "schema:Organization",
+					"schema:name": "IEEE"
+				}
 			}
 		},
 		{
-			"@id": "https://dl.acm.org/",
+			"@id": "https://cacm.acm.org/",
 			"@type": "schema:Periodical",
-			"schema:name": "Communications of the ACM"
+			"schema:name": "Communications of the ACM",
+			"schema:hasPart":{
+				"@id": "https://dl.acm.org/citation.cfm?doid=2001269.2001297",
+				"@type": "schema:ScholarlyArticle",
+				"schema:author":{
+					"@id": "http://danigayo.info/"
+				},
+				"schema:headline": "Don't turn social media into another 'Literary Digest' poll",
+				"schema:datePublished": "2011-10",
+				"schema:publisher":{
+					"@id": "https://dl.acm.org/",
+					"@type": "schema:Organization",
+					"schema:name": "ACM DL"
+				}
+			}
 		},
 		{
 			"@id": "http://www.di.uniovi.es/",
@@ -129,3 +158,4 @@
 		}
 	]
 }
+
